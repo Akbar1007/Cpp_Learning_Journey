@@ -1,0 +1,9 @@
+This Step 1 C++ program introduces basic concepts such as variable declaration, input/output operations, and basic arithmetic.
+
+
+Prints a welcome message.
+Demonstrates variables and data types: Declares and prints values of variables of types int, double, float, and char.
+Calculates the area of a square:
+Prompts the user to input the side length of a square.
+Calculates the area using the formula side * side.
+Outputs the side length and calculated area.
