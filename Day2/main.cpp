@@ -55,5 +55,22 @@ int main() {
     cout << pow(9, 1) << "        " << pow(9, 2) << "      " << pow(9, 3) << endl;
     cout << pow(10, 1) << "       " << pow(10, 2) << "     " << pow(10, 3) << endl;
 
+    //Program 3:
+
+    // Input values
+    double total_km, cost_per_liter, average_km_per_liter;
+    cout << "Enter the total kilometers driven per day: ";
+    cin >> total_km;
+    cout << "Enter the cost per liter of gasoline: ";
+    cin >> cost_per_liter;
+    cout << "Enter the average kilometers per liter: ";
+    cin >> average_km_per_liter;
+
+    // Total cost per day:
+    double total_cost_per_day = (total_km / average_km_per_liter) * cost_per_liter;
+
+    // The result
+    cout << "Total cost per day of driving to work: " << total_cost_per_day << endl;
+
     return 0;
 }
