@@ -1,0 +1,30 @@
+This program contains three small exercises for learning C++ concepts. 
+
+
+Program 1: Working with Numbers
+- Purpose: Input three integers from the user, then calculate and display:
+  - Their sum, average, and product.
+  - The smallest and largest number among them.
+
+
+Program 2: Generating a Table
+- Purpose: Display a table of integers (0 to 10), showing their:
+  - Square (number × number)
+  - Cube (number × number × number)
+- This is achieved using a simple **power function**.
+
+
+Program 3: Calculating Daily Driving Costs
+- Purpose: Calculate the daily cost of driving based on:
+  - Total kilometers driven.
+  - Gasoline cost per liter.
+  - Average kilometers per liter of fuel efficiency.
+- Outputs the total cost in a clear format.
+
+
+These programs introduce basic concepts such as:
+- Input and output (`cin`, `cout`).
+- Arithmetic calculations.
+- Logical comparisons and conditions.
+- Using functions like `pow()` for calculations.
+
