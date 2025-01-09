@@ -51,6 +51,46 @@ int main() {
     else 
         cout << "The number is odd." << endl;
     
+
+		
+		//Program 3:
+
+    // Creating three variables that we need for the program:
+    int hardness, tensileStrength;
+    float carbonContent;
+
+    // Asking the user to input the needed information:
+    cout << "Enter hardness: ";
+    cin >> hardness;
+    cout << "Enter carbon content: ";
+    cin >> carbonContent;
+    cout << "Enter tensile strength: ";
+    cin >> tensileStrength;
+
+    int grade = 5; 
+    // Grade is 5 if none of the conditions are satisfied
+
+    // Determining the grade based on the conditions
+    if (hardness > 50 && carbonContent < 0.7 && tensileStrength > 5600) 
+        grade = 10;
+
+    else if (hardness > 50 && carbonContent < 0.7) 
+        grade = 9;
+    
+    else if (carbonContent < 0.7 && tensileStrength > 5600) 
+        grade = 8;
+    
+    else if (hardness > 50 && tensileStrength > 5600) 
+        grade = 7;
+    
+    // Using the logical OR "||" to check if any one of the conditions is satisfied.
+    else if (hardness > 50 || carbonContent < 0.7 || tensileStrength > 5600) 
+        grade = 6;
+    
+
+    // Printing out the grade of the steel
+    cout << "The grade of the steel is: " << grade << endl;
+
 	return 0;
 }
 
