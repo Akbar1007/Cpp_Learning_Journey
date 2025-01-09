@@ -32,5 +32,25 @@ int main() {
     cout << "Tax payable: $" << tax << endl;
     cout << "Income after tax deduction: $" << incomeAfterTax << endl;
 
-    return 0;
+		
+		//Program 2:
+		// Creating a variable for the number:
+		int number;
+		// Asking the user to enter a number:
+		cout << "Enter a number please: " << endl;
+		cin >> number;
+
+    // Checking if the number is zero, even, or odd:
+    if (number == 0) 
+        cout << "The number is zero." << endl;
+    
+    // I simply used the modulus operator:
+    else if (number % 2 == 0) 
+        cout << "The number is even." << endl;
+    
+    else 
+        cout << "The number is odd." << endl;
+    
+	return 0;
 }
+
