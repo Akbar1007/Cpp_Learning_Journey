@@ -1,0 +1,41 @@
+There are three different tasks, each demonstrating simple decision-making in C++ using `if-else` statements:
+
+Program 1: Tax Calculator
+1. The program asks the user to input their salary in USD.
+2. Based on the salary range, the program calculates the tax using the following rules:
+   - No tax if the salary is $2000 or less.
+   - 20% tax if the salary is between $2001 and $3000.
+   - 30% tax if the salary is between $3001 and $5000.
+   - 40% tax if the salary is above $5000.
+3. After calculating the tax, the program determines the income after tax by subtracting the tax from the salary.
+4. Finally, it displays the calculated tax and the income after tax.
+
+Program 2: Number Type Checker
+1. The program asks the user to input a number.
+2. It checks if the number is zero, even, or odd:
+   - If the number is 0, it outputs "The number is zero."
+   - If the number is divisible by 2 (`number % 2 == 0`), it is even.
+   - Otherwise, the number is odd.
+3. It then prints the result based on the check.
+
+Program 3: Steel Grade Determiner
+1. The program asks the user to input three properties of steel:
+   - Hardness
+   - Carbon content
+   - Tensile strength
+2. Based on specific conditions, the program assigns a grade to the steel:
+   - Grade 10: All three conditions are met.
+   - Grade 9: Hardness > 50 and Carbon content < 0.7.
+   - Grade 8: Carbon content < 0.7 and Tensile strength > 5600.
+   - Grade 7: Hardness > 50 and Tensile strength > 5600.
+   - Grade 6: Any one condition is satisfied.
+   - Grade 5: None of the conditions are satisfied.
+3. The program displays the calculated grade.
+
+Common Concepts Used:
+- `if-else` statements for decision-making.
+- Logical operators (`&&` for AND, `||` for OR) to combine conditions.
+- Modulus operator (`%`) to check divisibility.
+- Basic input/output operations using `cin` and `cout`.
+
+These programs are great when it comes to using conditional logic to solve real-world problems like tax calculation, number properties, and material classification.
