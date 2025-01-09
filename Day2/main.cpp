@@ -1,4 +1,3 @@
-
 // Day 2
 
 #include <iostream>
