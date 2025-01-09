@@ -1,4 +1,4 @@
-// Day 2
+// Day 2:
 
 #include <iostream>
 using namespace std;
