@@ -19,5 +19,23 @@ int main() {
     // Output the result
     cout << "The product of odd integers from 1 to 15 is: " << product << endl;
 
+
+
+		// Program 2:
+
+    int m, n, sum = 0;
+
+    //Here I am asking for two numbers m and n for our user
+    cout << "Enter two numbers (m and n): ";
+    cin >> m >> n;
+
+    //Here I am calculating the sum of those numbers
+    for (int i = m; i <= n; i++) {
+        sum = sum + i;
+    }
+
+    cout << "The sum of numbers from " << m << " to " << n << " is: " << sum << endl;
+
+		
     return 0;
 }
