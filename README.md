@@ -29,7 +29,7 @@ This repository is a collection of my C++ learning projects, exercises, and note
 
 ## Requirements
 
-- A C++ compiler (e.g., GCC, Clang, or MSVC).
+- A C++ compiler (e.g., Visual Studio 2022, Clang, or MSVC).
 - Familiarity with basic programming concepts is helpful but not required.
 
 ---
@@ -51,12 +51,6 @@ This repository is a collection of my C++ learning projects, exercises, and note
 ## Feedback
 
 Feel free to open an issue if you have any questions or feedback. You can also contact me directly through GitHub.
-
----
-
-## License
-
-This repository is licensed under the MIT License. Feel free to use, modify, and distribute the code with proper attribution.
 
 ---
 
