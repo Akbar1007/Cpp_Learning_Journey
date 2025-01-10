@@ -36,6 +36,40 @@ int main() {
 
     cout << "The sum of numbers from " << m << " to " << n << " is: " << sum << endl;
 
-		
+		// Program 3:
+
+    char operation;
+    double num1, num2;
+
+    // Asking for the operation and two numbers
+    cout << "Enter operator (+, -, *, /): ";
+    cin >> operation;
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
+
+    // Just performing the operation
+    switch (operation) {
+    case '+':
+        cout << "Result: " << num1 + num2 << endl;
+        break;
+    case '-':
+        cout << "Result: " << num1 - num2 << endl;
+        break;
+    case '*':
+        cout << "Result: " << num1 * num2 << endl;
+        break;
+    case '/':
+        // Here I added the case when the second number might be 0. And if it is 0, then we do not perform
+        if (num2 != 0) 
+            cout << "Result: " << num1 / num2 << endl;
+        
+        else 
+            cout << "Error: Division by zero is incorrect!" << endl;
+        
+        break;
+    default:
+        cout << "Error: Invalid operator" << endl;
+    }
+
     return 0;
 }
