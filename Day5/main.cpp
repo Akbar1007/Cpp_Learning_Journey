@@ -34,5 +34,34 @@ int main() {
     for (int N = 1; N <= 5; ++N) {
         cout << N << '\t' << 10 * N << '\t' << 100 * N << '\t' << 1000 * N << endl;
     }
+
+
+ 		// Program 3:
+		// Loop for each line of stars
+    for (int i = 1; i <= 5; ++i) {
+        // Print 'i' stars in each row
+        for (int j = 1; j <= i; ++j) {
+            cout << "*";
+        }
+        cout << endl; //Moving to the next line
+    }
+
+		// Program 4:
+		// Loop for each row
+    for (int i = 1; i <= 5; ++i) {
+
+        //Second loop for printing spaces 
+        for (int s = 5; s > i; --s) {
+            cout << " "; // Print a space
+        }
+
+        // The last loop is for printing the numbers
+        for (int j = 1; j <= i; ++j) {
+            cout << j; //Print the numbers in each row
+        }
+
+        cout << endl; // This moves to the next line after each row
+    }
+
     return 0;
 }
