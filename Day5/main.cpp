@@ -24,5 +24,15 @@ int main() {
     // Printing out the largest number
     cout << "The largest number is: " << largest << endl;
 
+
+		// Program 2:
+		// Printing out the table and then using the for loop to fill it with numbers
+    // I also used \n to make a new line like in your table:
+		// \t - tab
+    cout << "N\t10*N\t100*N\t1000*N\n" << endl;
+    
+    for (int N = 1; N <= 5; ++N) {
+        cout << N << '\t' << 10 * N << '\t' << 100 * N << '\t' << 1000 * N << endl;
+    }
     return 0;
 }
