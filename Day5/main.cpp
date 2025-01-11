@@ -4,6 +4,8 @@
 using namespace std;
 
 int main() {
+
+		// Program 1:
     int counter = 0;
     int number = 0;
     int largest = 0;
@@ -24,7 +26,6 @@ int main() {
     // Printing out the largest number
     cout << "The largest number is: " << largest << endl;
 
-
 		// Program 2:
 		// Printing out the table and then using the for loop to fill it with numbers
     // I also used \n to make a new line like in your table:
@@ -34,7 +35,6 @@ int main() {
     for (int N = 1; N <= 5; ++N) {
         cout << N << '\t' << 10 * N << '\t' << 100 * N << '\t' << 1000 * N << endl;
     }
-
 
  		// Program 3:
 		// Loop for each line of stars

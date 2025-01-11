@@ -1,0 +1,41 @@
+
+
+There are four programs in this day and each performs a different task.
+
+1. Finding the Largest Number
+   - The program asks the user to input 10 numbers, one at a time.
+   - It keeps track of the largest number entered so far using a variable called `largest`.
+   - For each number entered, it checks if it's the largest so far. If yes, it updates the value of `largest`.
+   - After all 10 numbers are entered, it displays the largest number.
+
+2. Generating a Multiplication Table
+   - The program generates and displays a table where:
+     - The first column is the numbers from 1 to 5.
+     - The second column is each number multiplied by 10.
+     - The third column is each number multiplied by 100.
+     - The fourth column is each number multiplied by 1000.
+   - The `\t` is used to add spacing between columns, making the table aligned.
+
+3. Printing a Right-Angled Triangle of Stars
+   - The program prints a pattern of stars in the shape of a right-angled triangle.
+   - The triangle has 5 rows, and each row contains an increasing number of stars (1 star in the first row, 2 in the second, and so on).
+   - This is achieved using nested loops:
+     - The outer loop runs for each row.
+     - The inner loop prints the stars for that row.
+
+4. Printing a Pyramid of Numbers
+   - The program prints a pyramid of numbers.
+   - The pyramid has 5 rows, with each row containing increasing numbers starting from 1 (e.g., row 1 has "1", row 2 has "12", etc.).
+   - To make it look like a pyramid:
+     - Spaces are printed before the numbers in each row to align them correctly.
+   - Nested loops are used:
+     - One loop prints spaces before the numbers.
+     - Another loop prints the numbers for that row.
+
+At the end of the program, the `return 0;` statement signals that the program has executed successfully. This is something I forgot to tell in the previous days!!!
+
+
+Learning Goals:
+1. Understand loops inside loops.
+2. Practice using conditional statements.
+3. Slightly difficult programs to practice.
