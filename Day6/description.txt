@@ -1,0 +1,40 @@
+There are four programs in this day, and each demonstrates different concepts about functions in C++.
+
+1. Calculating the Average of Numbers
+   - This program calculates the average of numbers from 1 to 10.
+   - It uses a loop to calculate the sum of these numbers.
+   - After the loop completes, the program divides the total sum by 10 to find the average.
+   - The result is displayed using the `cout` statement.
+   - The concept of loops and basic arithmetic is demonstrated in this program.
+
+2. Reversing Digits of an Integer
+   - This program takes an integer input from the user and reverses its digits.
+   - It uses a loop to repeatedly extract the last digit of the number using the modulus operator `%`.
+   - The extracted digit is added to a new number (`reversed`) to construct the reversed version.
+   - This demonstrates the use of loops and arithmetic operations for digit manipulation.
+
+3. Temperature Conversion Table
+   - The program prints two temperature conversion tables:
+     - From Celsius to Fahrenheit.
+     - From Fahrenheit to Celsius.
+   - It uses two separate functions:
+     - One for converting Fahrenheit to Celsius.
+     - One for converting Celsius to Fahrenheit.
+   - A third function generates and prints the tables using loops.
+   - The output is aligned in columns using formatting for easy readability.
+   - This program demonstrates the use of functions, loops, and basic arithmetic.
+
+4. Area Calculation for Rectangle and Circle
+   - The program calculates the area of a rectangle or a circle based on the user's choice.
+   - It uses two functions:
+     - One for calculating the area of a rectangle (length × width).
+     - Another for calculating the area of a circle (π × radius²).
+   - The user inputs either 1 or 2 to select the shape, and the program asks for the necessary dimensions.
+   - Conditional statements (`if-else`) and function overloading are used here to make the program more dynamic.
+   - The program demonstrates user interaction, conditional statements, and mathematical calculations.
+
+
+Learning Goals:
+1. Understand the use of functions and function overloading.
+2. Practice loops and conditional statements in real-world examples.
+3. Learn how to write modular programs with reusable code. 
