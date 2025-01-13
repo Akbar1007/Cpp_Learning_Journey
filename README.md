@@ -2,7 +2,7 @@
 
 Welcome to my C++ Learning Journey repository! 🎉
 
-![cpp-logo](/C++/public/cpp-logo.svg)
+![cpp-logo](/C++/public/cpp.svg)
 
 ## About the Repository
 
