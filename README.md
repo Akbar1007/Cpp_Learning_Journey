@@ -2,6 +2,8 @@
 
 Welcome to my C++ Learning Journey repository! 🎉
 
+![cpp-logo](/C++/public/cpp-logo.jpg)
+
 ## About the Repository
 
 This repository is a collection of my C++ learning projects, exercises, and notes. Each folder and file contains code along with detailed explanations to help others understand the concepts and logic behind the implementations. Whether you're a beginner or just looking for insights into certain topics, I hope you'll find this helpful.
