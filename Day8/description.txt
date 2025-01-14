@@ -1,0 +1,11 @@
+Today, we focus on understanding and implementing key programming concepts such as passing by value, passing by reference, and recursive functions.
+
+There are three programs:
+
+Program 1 - the difference between passing arguments by value and by reference. The `tripleByValue` function accepts an integer and returns its tripled value, showcasing how the original variable remains unchanged. Conversely, the `tripleByReference` function accepts an integer reference and modifies the original variable directly. The program interacts with the user to input a number, and it displays the results of both techniques to highlight their distinctions.
+
+Program 2 - a practical application of loops to compute the sum of digits for a number or a range of numbers. The `sumOfDigits` function calculates the digit sum of a single number using a loop. The `digitsSum` function iterates over a range of numbers, utilizing `sumOfDigits` to compute the cumulative sum of digits for all numbers in that range. The program prompts the user to input a start and end value and outputs the result, demonstrating nested function calls and looping.
+
+Program 3 - recursion through the calculation of the greatest common divisor (GCD) of two numbers. The `gcd` function implements the Euclidean algorithm recursively to find the GCD efficiently. The program asks the user to input two integers and uses the recursive function to compute and display their GCD, providing insight into how recursion simplifies problem-solving in certain scenarios.
+
+All of these concepts are important for problem-solving in and for future advanced programs.
