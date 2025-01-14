@@ -1,0 +1,11 @@
+Day 7 focuses on exploring the concepts of function overloading, conditional logic for grading systems, and function templates in C++.
+
+Note: I have also included separate examples for template functions and their advantages in the folder "template-functions-explained/". There are two examples with usage.
+
+The code is divided into three programs, each addressing a specific concept.
+
+Program 1 demonstrates function overloading to calculate the area of different shapes: rectangle, triangle, and square. The `area` function is overloaded with different parameter sets to handle the computations. For a rectangle, it takes length and width as arguments. For a triangle, it accepts base and height, and for a square, it takes a single side as input. The program interacts with the user to accept the dimensions, computes the area using the appropriate overloaded function, and displays the results.
+
+Program 2 implements a grading system using conditional logic. The `qualityPoints` function maps a student's average score to a quality point on a scale from 0 to 4. The conditions are defined for specific score ranges, ensuring accuracy in classification. The program prompts the user to input the student's average, processes the input using the function, and outputs the corresponding quality point.
+
+Program 3 explores the use of function templates to find the maximum and minimum of two values. The generic templates allow the same function to operate on different data types such as integers, characters, and floating-point numbers. The user provides two values for each data type, and the program uses the `maximum` and `minimum` templates to compute and display the results. This program showcases the flexibility and efficiency of templates in C++ for creating reusable functions.
