@@ -1,6 +1,6 @@
 // Day 9
 
-//Program 1:
+// Program 1:
 #include <iostream>
 using namespace std;
 
