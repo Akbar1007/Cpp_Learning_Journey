@@ -1,0 +1,11 @@
+Today, we focus on understanding and implementing important programming concepts, including array manipulation, sorting, dynamic memory allocation, and tracking results in a competition.
+
+There are three programs in day 9:
+
+Program 1 - calculates the sum of elements greater than 10 in an array. The `sumTen` function takes an array and its size as arguments, allows the user to input the array elements, and computes the sum of elements greater than 10. This program demonstrates array manipulation, user input, and basic conditional checks.
+
+Program 2 - sorts an array of integers in ascending order. The `sortNums` function performs a simple sorting algorithm (Bubble Sort) to rearrange the elements in increasing order. It also illustrates dynamic memory allocation with `new` and `delete`, allowing for more flexibility with the array's size.
+
+Program 3 - tracks the winner of a competition between two participants, based on alternating scores. The `findWinner` function computes the cumulative score for each participant as the program iterates through the scores and determines who is currently winning after each round. This program shows how to handle arrays, track results with alternating indexes, and use dynamic memory allocation for storing scores and results.
+
+All of these concepts are essential for more advanced programming tasks and real-world problem-solving scenarios. You can also learn how to manage memory efficiently, sorte data, and implement logical rules for game-like scenarios.
