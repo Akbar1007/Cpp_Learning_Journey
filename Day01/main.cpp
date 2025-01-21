@@ -27,7 +27,7 @@ int main() {
 	int side;
 	// Taking input from the user:
 	cout << "Enter the side of the square: ";
-	// Taking that input and storing it in our variable:
+	// Taking that input and storing it in the variable:
 	cin >> side;
 
 	// Calculating the area of the square:
