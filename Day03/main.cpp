@@ -1,4 +1,5 @@
 // Day 3
+// All three programs:
 
 #include <iostream>
 using namespace std;
@@ -11,7 +12,7 @@ int main() {
     cout << "Enter your salary in USD:" << endl;
     cin >> salary;
 
-    // I am calculating tax based on salary range
+    // Calculating tax based on salary range
     if (salary <= 2000)
         tax = 0;
 
@@ -33,12 +34,12 @@ int main() {
     cout << "Income after tax deduction: $" << incomeAfterTax << endl;
 
 		
-		//Program 2:
-		// Creating a variable for the number:
-		int number;
-		// Asking the user to enter a number:
-		cout << "Enter a number please: " << endl;
-		cin >> number;
+    //Program 2:
+    // Creating a variable for the number:
+    int number;
+    // Asking the user to enter a number:
+    cout << "Enter a number please: " << endl;
+    cin >> number;
 
     // Checking if the number is zero, even, or odd:
     if (number == 0) 
@@ -53,9 +54,9 @@ int main() {
     
 
 		
-		//Program 3:
+	//Program 3:
 
-    // Creating three variables that we need for the program:
+    // Creating three variables that we need:
     int hardness, tensileStrength;
     float carbonContent;
 
