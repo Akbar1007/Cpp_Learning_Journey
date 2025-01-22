@@ -1,4 +1,5 @@
-// Day 4
+// Day 4:
+// All three programs:
 
 #include <iostream>;
 using namespace std;
