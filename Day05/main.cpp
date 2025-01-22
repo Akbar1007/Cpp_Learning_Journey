@@ -1,11 +1,12 @@
-// Day 5
+// Day 5:
+// All four programs"
 
 #include <iostream>
 using namespace std;
 
 int main() {
 
-		// Program 1:
+    // Program 1:
     int counter = 0;
     int number = 0;
     int largest = 0;
@@ -26,18 +27,18 @@ int main() {
     // Printing out the largest number
     cout << "The largest number is: " << largest << endl;
 
-		// Program 2:
-		// Printing out the table and then using the for loop to fill it with numbers
+    // Program 2:
+    // Printing out the table and then using the for loop to fill it with numbers
     // I also used \n to make a new line like in your table:
-		// \t - tab
+    // \t - tab
     cout << "N\t10*N\t100*N\t1000*N\n" << endl;
     
     for (int N = 1; N <= 5; ++N) {
         cout << N << '\t' << 10 * N << '\t' << 100 * N << '\t' << 1000 * N << endl;
     }
 
- 		// Program 3:
-		// Loop for each line of stars
+    // Program 3:
+    // Loop for each line of stars
     for (int i = 1; i <= 5; ++i) {
         // Print 'i' stars in each row
         for (int j = 1; j <= i; ++j) {
@@ -46,8 +47,8 @@ int main() {
         cout << endl; //Moving to the next line
     }
 
-		// Program 4:
-		// Loop for each row
+    // Program 4:
+    // Loop for each row
     for (int i = 1; i <= 5; ++i) {
 
         //Second loop for printing spaces 
