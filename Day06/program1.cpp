@@ -10,7 +10,7 @@ double averageNumbers() {
     for (int i = 1; i <= 10; i++) {
         sum += i;
     }
-    return sum / 10.0;  //I am telling to return average as double
+    return sum / 10.0;  // Telling to return average as double
 }
 
 int main() {
