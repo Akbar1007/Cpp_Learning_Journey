@@ -16,30 +16,6 @@ int findLargest(int* arr, int size) {
     return largest;
 }
 
-// Function to calculate the average of dynamically allocated array elements
-double calculateAverage(int* arr, int size) {
-    int sum = 0;
-    for (int i = 0; i < size; i++) {
-        sum += *(arr + i); // Use pointer arithmetic to access elements
-    }
-    return static_cast<double>(sum) / size;
-}
-
-// My function to modify a specific element in a 2D array
-void modify2DArray(int (*arr)[3], int row, int col, int newValue) {
-    *(*(arr + row) + col) = newValue; // Modify element at arr[row][col]
-}
-
-// Function to print a 2D array
-void print2DArray(int (*arr)[3], int rows, int cols) {
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) {
-            cout << *(*(arr + i) + j) << " "; // Access the array using pointers
-        }
-        cout << endl;
-    }
-}
-
 int main() {
     
     cout << "Program 1: " << endl;
