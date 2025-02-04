@@ -24,6 +24,6 @@ int main() {
     // calling the function
     calculateArea();
     
-    cout << "Finsihed" << endl;
+    cout << "Finished" << endl;
     return 0;
 }

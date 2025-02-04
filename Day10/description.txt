@@ -1,0 +1,12 @@
+Today, we focus on understanding and implementing key programming concepts, including pointer manipulation, dynamic memory allocation, and swapping values using pointers. These concepts are important for managing memory efficiently and performing operations directly on variable addresses.  
+
+There are three programs in Day 10:  
+
+Program 1 - Calculating the Area of a Rectangle Using Pointers  
+This program calculates the area of a rectangle using pointer variables. The calculateArea function takes user input for length and width and uses pointers to store and compute the area dynamically. This shows how pointers can be used to manipulate variables easily.
+
+Program 2 - Swapping Two Strings Using Pointers
+This program swaps two string values using pointer manipulation. The swapStrings function takes user input for two strings, swaps their values using a temporary variable, and then displays the updated values. This shows how pointers can be used to modify data without returning values from functions.  
+
+Program 3 - Dynamic Memory Allocation for Different Data Types  
+This program dynamically allocates memory for an integer, a character, and a string. The dynamicAllocation function takes user input for each data type, stores the values in dynamically allocated memory, and displays them. The allocated memory is later freed using delete. 
