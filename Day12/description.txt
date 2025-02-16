@@ -1,0 +1,6 @@
+Program: Real Estate Management System
+
+Purpose: Design a real estate management system using object-oriented programming principles in C++. Implement a class Property to represent real estate properties with the following features:
+•	Data members: propertyId (int), propertyName(string), propertyValue (int).
+•	Member functions: getPropertyId(), setPropertyId(), getPropertyName(), setPropertyName(), getPropertyValue(), setPropertyValue().
+•	Implement set functions to validate and set property data appropriately.
