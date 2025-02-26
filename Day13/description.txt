@@ -1,0 +1,68 @@
+Description of the code in Day 13:
+
+The given C++ program defines a Book class that represents books with attributes such as bookID, title, author, and price. It implements constructors, a destructor, and a method to display book details. Below is a breakdown of the code:
+
+1. Book.h (Header File)
+This file defines the Book class and declares its attributes and methods.
+
+Class Attributes:
+- bookID → Stores the book's unique identifier.
+- title → Stores the title of the book.
+- author → Stores the author's name.
+- price → Stores the price of the book.
+
+Constructors:
+- Default Constructor (Book())  
+  - Initializes book details with default values:  
+    - bookID = 0
+    - title = "Unknown"
+    - author = "Unknown"
+    - price = 0.0
+
+- Parameterized Constructor (Book(int id, string tit, string auth, float p))  
+  - Initializes a book object with given values.
+
+Destructor (~Book())  
+- Prints "The book is deleted!" when an object is destroyed.
+
+Method:
+- display() → Prints book details (ID, title, author, and price).
+
+2. main.cpp (Main Program)
+This file includes Book.h and implements the constructor and display() method outside the class definition.
+
+Implementation of Constructor
+- The parameterized constructor initializes the book attributes.
+
+Implementation of display()
+- Prints book details to the console.
+
+Inside main()
+1. Creates three Book objects:
+   - object → Uses the default constructor.
+   - object2(1, "IELTS 19", "Cambridge", 3) → Uses the parameterized constructor.
+   - object3(2, "Writing 2024 review", "Teacher", 1) → Uses the parameterized constructor.
+
+2. Calls display() for each object to print book details.
+
+Expected Output:
+Book ID: 0
+Book title: Unknown
+Book author: Unknown
+Price: 0
+
+Book ID: 1
+Book title: IELTS 19
+Book author: Cambridge
+Price: 3
+
+Book ID: 2
+Book title: Writing 2024 review
+Book author: Teacher
+Price: 1
+
+The book is deleted!
+The book is deleted!
+The book is deleted!
+
+(The destructor message appears three times, once for each object.)
