@@ -1,6 +1,5 @@
 // Day 13
 
-// Axmedov Akbarjon - U2410041
 #include "Book.h"
 #include <iostream>
 #include <string>
