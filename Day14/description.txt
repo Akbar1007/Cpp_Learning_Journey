@@ -1,0 +1,72 @@
+Description of the code in Day 14:
+
+The given C++ program has a simple ATM system using three classes: Account, Balance, and ATM. It demonstrates object-oriented programming OOP concepts such as encapsulation, constructors, and class interactions. 
+
+The breakdown of the code:
+
+1. Account.h Header File  
+This file defines the Account class, which stores user details.
+
+Class Attributes:  
+- AccountName → Stores the name of the account holder.  
+- PinNumber → Stores the user's PIN hidden for security reasons.  
+
+Constructor:  
+- Parameterized Constructor Account string name, int pin  
+- Initializes the account with the provided name and PIN.  
+
+Method:  
+- Display → Prints account details, including the account holder's name and a hidden PIN for security.  
+
+
+2. Balance.h Header File  
+This file defines the Balance class, which tracks the user's recent transactions.
+
+Class Attributes:  
+- Withdrawal → Stores the last withdrawal amount.  
+- Deposit → Stores the last deposit amount.  
+- BalanceInquiry → Stores the current account balance.  
+
+Constructor:  
+- Parameterized Constructor Balance int withdrawal, int deposit, int balance  
+- Initializes transaction details and the current balance.  
+
+Method:  
+- Show → Displays the last withdrawal, last deposit, and current balance.  
+
+
+3. ATM.h Header File  
+This file defines the ATM class, which acts as a central interface for user account and balance details.
+
+Class Attributes:  
+- Account account → Represents the user's account.  
+- Balance balance → Represents the user's transaction details.  
+
+Constructor:  
+- Parameterized Constructor ATM string name, int pin, int withdrawal, int deposit, int balanceAmount  
+- Initializes the Account and Balance objects using provided values.  
+
+Method:  
+- ShowATMDetails → Displays the user's account details name and hidden PIN and balance information.  
+
+
+4. main.cpp - Main Program  
+This file includes ATM.h and serves as the entry point of the program.
+
+Implementation in main:  
+1. Creates an ATM object with sample data Akbar, 1234, 100, 500, 2000.  
+2. Calls ShowATMDetails to display account and balance information.  
+
+
+Expected Output:  
+ATM User Information:  
+Account Name: Akbar  
+PIN: **** hidden for security  
+
+Balance Information:  
+Last Withdrawal: $100  
+Last Deposit: $500  
+Current Balance: $2000  
+
+
+This day's program demonstrates class composition using Account and Balance within ATM, encapsulation hiding user PIN, and OOP principles in C++. It can be expanded further by adding functionalities such as deposit, withdrawal, and PIN authentication.
