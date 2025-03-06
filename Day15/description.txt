@@ -1,0 +1,37 @@
+This C++ stock exchange system manages currency market rates and allows operations like currency conversion, market rate comparison, and user input handling. The system implements operator overloading to enhance functionality, making it easier to interact with stock exchange data.  
+
+Key Features:  
+- Encapsulation: Data is stored in a class (StockEx) with private attributes.  
+- Operator Overloading:  
+  - * operator multiplies an amount with the market rate to simulate currency exchange.  
+  - - operator calculates the difference between two market rates.  
+  - << and >> operators handle user input and formatted output.  
+- Modular Structure: Separate header (StockEx.h), implementation (StockEx.cpp), and main (main.cpp) files ensure clean organization.  
+- Interactive Console: Users can enter stock details dynamically.  
+- Demonstration in Main: The main.cpp file showcases stock creation, conversion, and rate comparison.  
+
+System Workflow:  
+1. Define Stock Exchange Objects: Stocks are initialized with currency name, market rate, and date.  
+2. Take User Input: Users enter stock details for a new stock.  
+3. Display Stock Information: The system prints details of all stock exchanges.  
+4. Currency Exchange Calculation (* Operator): Converts a given amount using the market rate.  
+5. Market Rate Difference Calculation (- Operator): Computes the difference between two stock market rates.  
+
+Example Usage & Output:  
+Enter stock exchange details for Stock 3:  
+Enter Currency: GBP  
+Enter Market Rate: 130.7  
+Enter Date (YYYYMMDD): 20250303  
+
+Stock Exchange Details:  
+Stock 1: Currency: USD, Market Rate: 104.5, Date: 20250305  
+Stock 2: Currency: EUR, Market Rate: 112.3, Date: 20250304  
+Stock 3: Currency: GBP, Market Rate: 130.7, Date: 20250303  
+
+Converting 100 in Stock 1's currency: 10450  
+Converting 100 in Stock 2's currency: 11230  
+
+Difference in market rates between Stock 1 and Stock 2: -7.8  
+
+
+This Stock Exchange System is a simple yet powerful implementation that demonstrates OOP principles and operator overloading in C++. Let me know if you need any modifications or enhancements!
