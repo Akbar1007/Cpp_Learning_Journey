@@ -1,0 +1,11 @@
+The program is a simple simulation of a bank account system in C++. It uses object-oriented programming concepts like classes, constructors, operator overloading, and encapsulation. There are three files in total: the main file, the Account class header file, and the Account class implementation file.
+
+The main.cpp file creates three account objects. Two of them are created with predefined values, and the third one is created by asking the user to input the details. After creating the accounts, the program performs some deposit and withdrawal actions on them. For example, one account deposits money, another withdraws money, and the third deposits money too. After these operations, the program displays the updated details of all three accounts.
+
+The program also compares the accounts in two ways. First, it checks if two accounts have the same account number using the == operator. Second, it compares the balances of two accounts using the > operator to see which one has more money.
+
+The Account.h file defines the Account class. It stores information about each account, such as the account holder's name, account number, account type (like Humo or Uzcard), and the current balance. The class has a constructor that sets these values when an account is created. There are functions to deposit money, withdraw money, and compare two accounts using operator overloading. It also has friend functions for input and output, so we can easily display account details or enter them from the user.
+
+The Account.cpp file implements all the functions declared in Account.h. The deposit function adds money to the balance if the amount is positive. The withdraw function subtracts money from the balance if there is enough money in the account. The == operator checks if two accounts have the same account number. The > operator compares the balances of two accounts. The << operator prints all account information like name, number, type, and balance. The >> operator allows the user to input the account details from the keyboard.
+
+In this day, you may learn how to create a basic bank account system where you can deposit, withdraw, and compare accounts. It uses OOP principles in a simple and easy-to-understand way.
