@@ -1,0 +1,11 @@
+Description:
+
+This program demonstrates the concept of inheritance in C++ through a student result system. It uses three classes:
+
+1. Student – The base class that stores basic student info: ID, name, university, and group number.
+2. Test – Inherits from Student and adds test scores in three subjects: Physics, OOP, and English.
+3. Result – Inherits from Test and calculates the total score and GPI (Grade Point Index, or average).
+
+In the main() function, a Result object is created with sample data. The program then displays the full result, including personal info, subject scores, total marks, and the average score.
+
+This example helps you understand how inheritance allows one class to reuse and build upon another.
