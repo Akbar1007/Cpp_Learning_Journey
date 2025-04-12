@@ -1,0 +1,20 @@
+This program demonstrates the concepts of inheritance, polymorphism, and the use of a virtual base class in C++ through a simplified educational system.
+
+It uses four main classes:
+
+1. Person – A base class containing basic personal information: name, age, and gender.  
+2. Student – Inherits virtually from Person and adds student-specific attributes: ID number, subject, and grade.  
+3. Teacher – Also inherits virtually from Person, and includes information about the course being taught.  
+4. ECLASS – A derived class that inherits from both Student and Teacher. It combines data and behaviors from both sides of the hierarchy and resolves ambiguity caused by multiple inheritance using virtual inheritance.
+
+Key Concepts Demonstrated:
+- Virtual Inheritance: Used to avoid duplication of the base class Person in the ECLASS due to multiple inheritance.
+- Encapsulation: Data members are encapsulated and accessed through public methods.
+- Method Overlap and Disambiguation: Shows how method resolution is managed when base classes share a common ancestor.
+
+Program Flow:
+- In the main() function, an object of ECLASS is created.
+- Personal data is set through the Person class, teacher data via Teacher, and student data through Student.
+- The ECLASS object then displays both the student and teacher information, including personal details.
+
+This example is useful for understanding how multiple inheritance and virtual base classes work together to build complex class organizations.
