@@ -1,0 +1,17 @@
+This program shows inheritance, runtime polymorphism, and virtual functions in C++ through a Hospital Management System simulation.
+
+It defines a base class and two derived classes:
+
+1. Hospital – The base class that holds common attributes for both doctors and patients, such as ID, name, age, and gender. It includes a virtual Display() function for polymorphic behavior.
+
+2. Doctor – Inherits from Hospital and adds specific attributes like department, consultation day, consultation hours, and surgery day. It overrides the Display() function to show complete doctor details.
+
+3. Patient – Also inherits from Hospital, and introduces an additional attribute for medical history. It overrides the Display() method to include this information.
+
+Key Concepts Demonstrated:
+- Runtime Polymorphism: Achieved through the use of a virtual function in the base class and dynamic binding using an array of base class pointers.
+- Encapsulation: Each class keeps its own data members private or protected and provides controlled access via public methods.
+- Memory Management: Dynamic memory allocation is used to create objects, followed by cleanup using delete to prevent memory leaks.
+- Constructor Chaining: Derived class constructors call the base class constructor to initialize shared attributes.
+
+This example provides a clear and practical illustration of how polymorphism and inheritance are applied in real-world object-oriented programming.
