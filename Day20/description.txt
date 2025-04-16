@@ -1,0 +1,16 @@
+Today's program shows class templates and runtime polymorphism in C++ using a student management app.
+
+It defines a base class and a templated derived class:
+
+Person is the base class containing shared attributes such as name, age, and gender and includes a virtual Display() function to allow polymorphic behavior.
+
+Student is a class template derived from Person, which introduces a templated ID field to support different data types for student identification. The Display() function is overridden to include the ID along with inherited attributes.
+
+Key Concepts Demonstrated:
+Runtime Polymorphism is shown through the virtual Display() function and dynamic binding via the Person base class.
+Templates are used to create generic Student objects with different ID data types, such as int, string, long, and char.
+Constructor Inheritance is utilized as the derived class constructor calls the base class constructor to initialize shared attributes.
+Encapsulation is maintained with attributes being protected and accessed or printed only through public methods.
+Memory Management is handled implicitly as the objects are stack-allocated and the virtual destructor in the base class ensures proper cleanup if needed in a polymorphic context.
+
+This example provides a practical application of class templates and polymorphism in C++ object-oriented programming.
