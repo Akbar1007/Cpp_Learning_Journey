@@ -1,0 +1,16 @@
+This program processes student scores.
+It has two main parts:
+
+First, the writeStudentData() function asks the user to enter information for 3 students.
+For each student, it takes the ID, name, and three exam scores.
+It writes the ID, name, and scores to a file called students.txt.
+It also calculates the average of the three scores and writes the student's name and average to another file called averages.txt.
+If the files cannot be opened, it shows an error message.
+
+Second, the readAndDisplayData() function opens both students.txt and averages.txt.
+It reads the contents of both files and prints them to the console.
+Again, if the files cannot be opened, it shows an error message.
+
+In main(), the program prints a title message, calls writeStudentData(), and then calls readAndDisplayData().
+
+The program uses basic file input/output, strings, loops, and simple formatting for output.
