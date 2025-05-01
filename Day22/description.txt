@@ -1,0 +1,18 @@
+Day 22 is about handling file input and output using object-oriented programming in C++. The code defines a Person class that stores basic information such as name, address, and phone number. It uses file pointers to save and load data from a binary file named Person.dat.
+
+There are three files:
+
+1. Person.h – This is the header file where the Person class is declared. It contains protected members for storing personal information and public methods for setting, displaying, reading from a file, and writing to a file.
+
+2. Person.cpp – This file implements the methods of the Person class. The setData() method takes input from the user, display() prints the data in a formatted way, and the file-related methods handle saving and loading records.
+
+3. main.cpp – This file contains the main program. It provides a menu-based interface for the user to interact with the file. The user can:
+   - Display all stored records.
+   - Find a person's phone number by name.
+   - Find a name using a phone number.
+   - Delete a record by name.
+   - Insert a new record at a specific position.
+
+File I/O is handled using binary read/write functions. The program also uses the vector container to store data temporarily in memory when modifying or adding records. Proper formatting is used for console output with setw() and left from the <iomanip> library.
+
+The program is simple and modular, and it is easy to test and expand if needed.
